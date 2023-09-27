@@ -1,8 +1,9 @@
 // import UseEffectComponent from './useEffect_folder/UseEffectComponent';
 // import UseStateComponent from './useState_folder/UseStateComponent';
 // import UseMemoComponent from "./useMemo_folder/UseMemoComponent";
-
-import UseRefComponent from "./useRef_folder/UseRefComponent";
+// import UseRefComponent from "./useRef_folder/UseRefComponent";
+// import UseContextComponent from "./useContext_folder/UseContextComponent";
+import PassingProps from "./prop_folder/PassingProps";
 
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       {/* <UseStateComponent /> */}
       {/* <UseEffectComponent /> */}
       {/* <UseMemoComponent /> */}
-      <UseRefComponent />
+      {/* <UseRefComponent /> */}
+      {/* <UseContextComponent /> */}
+      <PassingProps />
     </div>
   );
 }
