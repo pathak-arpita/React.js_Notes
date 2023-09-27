@@ -3,7 +3,8 @@
 // import UseMemoComponent from "./useMemo_folder/UseMemoComponent";
 // import UseRefComponent from "./useRef_folder/UseRefComponent";
 // import UseContextComponent from "./useContext_folder/UseContextComponent";
-import PassingProps from "./prop_folder/PassingProps";
+// import PassingProps from "./prop_folder/PassingProps";
+import TodoList from "./todo_list_code/TodoList"
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <UseMemoComponent /> */}
       {/* <UseRefComponent /> */}
       {/* <UseContextComponent /> */}
-      <PassingProps />
+      {/* <PassingProps /> */}
+      <TodoList />
     </div>
   );
 }
