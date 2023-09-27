@@ -4,7 +4,9 @@
 // import UseRefComponent from "./useRef_folder/UseRefComponent";
 // import UseContextComponent from "./useContext_folder/UseContextComponent";
 // import PassingProps from "./prop_folder/PassingProps";
-import TodoList from "./todo_list_code/TodoList"
+// import TodoList from "./todo_list_code/TodoList"
+
+import Stopwatch from "./stopwatch_code/Stopwatch";
 
 
 function App() {
@@ -16,7 +18,8 @@ function App() {
       {/* <UseRefComponent /> */}
       {/* <UseContextComponent /> */}
       {/* <PassingProps /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <Stopwatch />
     </div>
   );
 }

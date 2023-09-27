@@ -11,9 +11,9 @@ function TodoList(){
     }
 
     const removeToList = (index) =>{
-        const newTodod = [...list];
-        newTodod.splice(index,1 );  
-        setList([...newTodod]);
+        const newTodo = [...list];
+        newTodo.splice(index,1 );  
+        setList([...newTodo]);
     }
     return(
         <div>
